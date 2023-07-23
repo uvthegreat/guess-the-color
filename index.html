@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the color</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <button class="reset btn">Reset</button>
+      </div>
+      <h1>Guess the color</h1>
+      <div class="secret-color">rgb(???,???,???)</div>
+      <div class="guess">Guess left: <span>3</span></div>
+    </header>
+    <main>
+      <section>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </section>
+    </main>
+    <footer>copyright Utkarsh all rights reserved</footer>
+    <div class="modal hidden">
+      <h1>You won !!🎉🎉🥳🥳</h1>
+      <button class="close-modal btn">&times;</button>
+      <div class="secret-color-modal">rgb(???,???,???)</div>
+      <div class="modal-square"></div>
+      <button class="play-again btn">Play again</button>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
